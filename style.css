@@ -75,7 +75,11 @@ section{
 .home{
   display: flex;
   align-items: center;
-  padding: 0 9%;  
+  padding: 0 9%; 
+  background: url(./images/IMG-20230804-WA0015.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; 
+
 }
 
 .home-content{
@@ -210,3 +214,20 @@ section{
 .home-sci a:hover::before{
   width: 100%;
 }
+
+.home-imgHover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid red;
+  transition: 3s;
+}
+
+.home-imgHover:hover{
+  background: var(--main-color);
+  opacity: .8;
+}
+
