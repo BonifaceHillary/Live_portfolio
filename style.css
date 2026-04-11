@@ -19,7 +19,7 @@
 
 html{
   font-size: 62.5%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body{
@@ -230,5 +230,15 @@ section{
 .home-imgHover:hover{
   background: var(--bg-color);
   opacity: .8;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--second-bg-color);
+  padding: 6rem;
 }
 
