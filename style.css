@@ -320,6 +320,10 @@ span{
 }
 
 .education-row .education-colum{
+  flex: 1 1 40rem;
+}
+
+.education-colum .title{
   font-size: 2.4rem;
   margin: 0 0 1.4rem 2rem;
 }
