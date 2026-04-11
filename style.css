@@ -244,5 +244,19 @@ section{
 
 }
 
+.heading{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
 
+.about-img{
+  position: relative;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
