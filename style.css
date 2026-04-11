@@ -233,12 +233,20 @@ section{
 }
 
 .about{
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
   background-color: var(--second-bg-color);
   padding: 6rem;
+ 
+
 }
+
+/* .img{
+  padding: 30px;
+  height: 30px;
+  width: 70px;
+} */
 
